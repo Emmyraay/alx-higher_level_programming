@@ -10,6 +10,8 @@ def square_matrix_simple(matrix=[]):
     return [
         [x**2 for x in row] for row in matrix
     ]
+
+
 if __name__ == '__main__':
     s = square_matrix_simple([
         [1, 2, 3],
