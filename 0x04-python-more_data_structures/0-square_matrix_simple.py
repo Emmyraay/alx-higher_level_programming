@@ -13,7 +13,9 @@ def square_matrix_simple(matrix=[]):
 if __name__ == '__main__':
     s = square_matrix_simple([
         [1, 2, 3],
+
         [4, 5, 6],
+
         [7, 8, 9]
     ])
     print(s)
